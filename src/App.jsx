@@ -18,7 +18,7 @@ import Card from "./Components/Card";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
 import { Route, Routes } from "react-router-dom";
-import Loader from "./Components/Loader";
+// import Loader from "./Components/Loader";
   const App = () => {
   // const [isLoading, setLoading] = useState(false);
   // const [loading, setLoading] = useState(true);
@@ -36,6 +36,7 @@ import Loader from "./Components/Loader";
 
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      {/* <Loader/> */}
         <div className={`${styles.boxWidth}`}>
           <NavBar />
         </div>
