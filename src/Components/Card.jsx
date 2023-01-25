@@ -111,8 +111,8 @@ const Card = () => {
             <p className=" text-center text-small ">
               The goal of the PAC RUNNER contest is for a robot to
               accurately follow a black line on a white background, navigate
-              various turns, and complete the arena in the shortest time
-              possible. The robot that successfully tracks the path line
+              various turns, and complete the arena in the shortest 
+              possible time . The robot that successfully tracks the path line
               from start to finish in the quickest manner will be the
               winner.
             </p>
