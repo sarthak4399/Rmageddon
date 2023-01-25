@@ -7,7 +7,7 @@ import Button from "./Button";
 const Card = () => {
   return (
     <section id="battles" name="battles">
-      <div className="grid lg:grid-cols-3 gap-4 text-green-400 py-1 h-full w-full ">
+      {/* <div className="grid lg:grid-cols-3 gap-4 text-green-400 py-1 h-full w-full ">
         <script src="https://cdn.tailwindcss.com" />
         <div className="flex h-screen items-center ">
           <div className="w-10/12 group relative mx-auto w-[350px] overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-[#00df9a]  hover:to-[#DFFA2D]">
@@ -94,6 +94,59 @@ const Card = () => {
                   <Button styles={`mt-10`} className="sm:" />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      <div className=" w-full py-[10rem] px-4" name="battels">
+        <h1 className="text-gradient flex justify-center mb-20 text-2xl font-bold ">
+          Battels
+        </h1>
+        <div className=" max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8  ">
+          
+          <div className="  bg-black-gradient hover:text-white w-full shadow-2xl flex  flex-col py-4 my-4 rounded-lg hover:scale-105 duration-300 bg-white border ">
+            <img className="w-20 mx-auto mt-[3rem] rounded-full" src={pac_man} alt="" />
+            <h2 className="  py-8 text-lg font-semibold text-gradient text-center">PAC-RUNNER </h2>
+            <p className=" text-center text-small ">
+              The goal of the PAC RUNNER contest is for a robot to
+              accurately follow a black line on a white background, navigate
+              various turns, and complete the arena in the shortest time
+              possible. The robot that successfully tracks the path line
+              from start to finish in the quickest manner will be the
+              winner.
+            </p>
+            <div className=" justify-center flex ">
+              <Button styles={`mt-10`} className="sm:" />
+            </div>
+          </div>
+          <div className="  bg-black-gradient hover:text-white  w-full shadow-2xl flex  flex-col py-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300 bg-white border ">
+            <img className="w-20 mx-auto mt-[3rem] rounded-full" src={retromania} alt="" />
+            <h2 className="text-lg font-semibold text-gradient text-center py-8">RETROMINIA</h2>
+            <p className=" text-center text-small    ">
+              Design a wired robot within the specified dimensions that can
+              operated manually and can travel through all turns of the
+              track and pass through all the obstacles. The robot that will
+              complete the race in least time will be the winner of the
+              RETROMANIA.
+            </p>
+
+            <div className=" justify-center flex ">
+              <Button styles={`mt-10`} className="sm:" />
+            </div>
+          </div>
+          <div className=" bg-black-gradient hover:text-white w-full shadow-2xl flex  flex-col py-4 my-4 rounded-lg hover:scale-105 duration-300 bg-white border ">
+            <img className="w-20 mx-auto mt-[3rem] rounded-full" src={ninja_turtle} alt="" />
+            <h2 className="text-lg font-semibold text-gradient text-center py-8">NINJA CLASH</h2>
+            <p className=" text-center text-small">
+              NINJA TURTLE is a sport in which 2 robots have to push each
+              other out of the arena. The operators have to operate robots
+              from outside and try to push opponent's robot out of the arena
+              by different tactics also have to prevent own robot from
+              leaving the arena.
+            </p>
+            <div className=" justify-center flex ">
+              <Button styles={`mt-10`} className="sm:" />
             </div>
           </div>
         </div>
